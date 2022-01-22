@@ -6,16 +6,26 @@
 
   <groupId>edu.ug</groupId>
   <artifactId>casa-deseada</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1-SNAPSHOT</version>
 
-  <name>casa-soñada</name>
-  <!-- FIXME change it to the project's website -->
+  <name>casa-deseada</name>
+
   <url>http://www.example.com</url>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Construccion-Software-UG Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/Construccion-Software-UG/casa-deseada</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <sonar.organization>construccion-software-ug</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
   </properties>
 
   <dependencies>
