@@ -6,7 +6,7 @@
 
   <groupId>edu.ug</groupId>
   <artifactId>casa-deseada</artifactId>
-  <version>1.0.1-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
 
   <name>casa-deseada</name>
 
@@ -35,6 +35,23 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.4.0</version>
+      <scope>test</scope>
+    </dependency>
+
+
+
   </dependencies>
 
   <build>
