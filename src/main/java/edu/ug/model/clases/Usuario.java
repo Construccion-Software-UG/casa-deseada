@@ -18,4 +18,16 @@ public class Usuario {
     public Rol getRol() {
         return rol;
     }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setUserName(String userName) {
+        this.userName = userName;
+    }
+
+    public void setRol(Rol rol) {
+        this.rol = rol;
+    }
 }
