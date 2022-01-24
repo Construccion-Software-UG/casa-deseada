@@ -9,7 +9,7 @@ public class Vendedor extends Persona{
 
     public Vendedor(int id, String cedula, String nombre, String apellido, char genero, String telefono, Usuario user) {
         super(id, cedula, nombre, apellido, genero, telefono, user);
-  
+
     }
 
     public Vendedor(String cedula, String nombre, String apellido, char genero, String telefono) {
