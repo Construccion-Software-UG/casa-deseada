@@ -9,12 +9,12 @@ public class Vendedor extends Persona{
 
     public Vendedor(int id, String cedula, String nombre, String apellido, char genero, String telefono, Usuario user) {
         super(id, cedula, nombre, apellido, genero, telefono, user);
-        this.horasTrabajadas = horasTrabajadas;
+  
     }
 
     public Vendedor(String cedula, String nombre, String apellido, char genero, String telefono) {
         super(cedula, nombre, apellido, genero, telefono);
-        this.horasTrabajadas = horasTrabajadas;
+
     }
 
     public void registrarProforma(Casa casa){
