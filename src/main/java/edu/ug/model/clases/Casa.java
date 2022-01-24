@@ -8,7 +8,7 @@ public class Casa {
     private int numSolar;
     private double precio;
     private int numHabitaciones;
-    private int numBaños;
+    private int numBanios;
     private int numPisos;
     private List<Acabado> acabados;
 
@@ -17,7 +17,7 @@ public class Casa {
         this.numSolar = numSolar;
         this.precio = precio;
         this.numHabitaciones = numHabitaciones;
-        this.numBaños = numBaños;
+        this.numBanios = numBaños;
         this.numPisos = numPisos;
     }
 
@@ -29,7 +29,7 @@ public class Casa {
         this.numSolar = numSolar;
         this.precio = precio;
         this.numHabitaciones = numHabitaciones;
-        this.numBaños = numBaños;
+        this.numBanios = numBaños;
         this.numPisos = numPisos;
     }
 
@@ -65,12 +65,12 @@ public class Casa {
         this.numHabitaciones = numHabitaciones;
     }
 
-    public int getNumBaños() {
-        return numBaños;
+    public int getNumBanios() {
+        return numBanios;
     }
 
-    public void setNumBaños(int numBaños) {
-        this.numBaños = numBaños;
+    public void setNumBanios(int numBanios) {
+        this.numBanios = numBanios;
     }
 
     public int getNumPisos() {
