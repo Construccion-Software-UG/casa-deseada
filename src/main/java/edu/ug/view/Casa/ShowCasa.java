@@ -44,14 +44,13 @@ public class ShowCasa extends JInternalFrame {
 		panel_1.add(panel_3);
 		panel_3.setLayout(new BorderLayout(0, 0));
 
-		String userPath = System.getProperty("user.dir").toString();
-		String imageDir = "\\src\\main\\java\\edu\\ug\\resources\\Images\\";
+		String imageDir = "src/main/resources/Images/";
 		String imageCasaEsmeralda = "casa_esmeralda.jpg";
 
 
 		JLabel lblNewLabel_1 = new JLabel("");
 		//lblNewLabel_1.setIcon(new ResizeIcon("../../resources/Images/casa_esmeralda.jpg",300,300).execute());
-		lblNewLabel_1.setIcon(new ResizeIcon(userPath+imageDir+imageCasaEsmeralda,200,200).execute());
+		lblNewLabel_1.setIcon(new ResizeIcon(imageDir+imageCasaEsmeralda,200,200).execute());
 		panel_3.add(lblNewLabel_1, BorderLayout.WEST);
 		
 		String textoCasaEsmeralda = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.\n Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n";

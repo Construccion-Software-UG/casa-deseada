@@ -71,15 +71,16 @@ public class ListCasa extends JInternalFrame {
 		});
 		//btnNewButton.setIcon(new ResizeIcon("/resources/Images/casa_esmeralda.jpg",200,200).execute());
 
-		String userPath = System.getProperty("user.dir").toString();
-		String imageDir = "\\src\\main\\java\\edu\\ug\\resources\\Images\\";
+		//String userPath = System.getProperty("user.dir").toString();
+		String userPath ="";
+		String imageDir = "src/main/resources/Images/";
 		String imageCasaEsmeralda = "casa_esmeralda.jpg";
 		String imageCasaEuropa = "casa_europa.jpg";
 		String imageCasaPlatino = "casa_platino.jpg";
 		String imageCasaPrimavera = "casa_primavera.jpg";
 
 
-		btnNewButton.setIcon(new ResizeIcon(userPath+imageDir+imageCasaEsmeralda,200,200).execute());
+		btnNewButton.setIcon(new ResizeIcon(imageDir+imageCasaEsmeralda,200,200).execute());
 
 
 		//btnNewButton.setIcon(new ImageIcon());
@@ -99,7 +100,7 @@ public class ListCasa extends JInternalFrame {
 		JButton btnNewButton_1 = new JButton("");
 		btnNewButton_1.setEnabled(false);
 		
-		btnNewButton_1.setIcon(new ResizeIcon(userPath+imageDir+imageCasaPlatino,200,200).execute());
+		btnNewButton_1.setIcon(new ResizeIcon(imageDir+imageCasaPlatino,200,200).execute());
 		panel_3.add(btnNewButton_1, BorderLayout.CENTER);
 		
 		JPanel panel_5 = new JPanel();
@@ -113,7 +114,7 @@ public class ListCasa extends JInternalFrame {
 		
 		JButton btnNewButton_1_1 = new JButton("");
 		btnNewButton_1_1.setEnabled(false);
-		btnNewButton_1_1.setIcon(new ResizeIcon(userPath+imageDir+imageCasaEuropa,200,200).execute());
+		btnNewButton_1_1.setIcon(new ResizeIcon(imageDir+imageCasaEuropa,200,200).execute());
 		panel_5.add(btnNewButton_1_1, BorderLayout.CENTER);
 		
 		JPanel panel_6 = new JPanel();
@@ -127,7 +128,7 @@ public class ListCasa extends JInternalFrame {
 		
 		JButton btnNewButton_1_2 = new JButton("");
 		btnNewButton_1_2.setEnabled(false);
-		btnNewButton_1_2.setIcon(new ResizeIcon(userPath+imageDir+imageCasaPrimavera,200,200).execute());
+		btnNewButton_1_2.setIcon(new ResizeIcon(imageDir+imageCasaPrimavera,200,200).execute());
 		panel_6.add(btnNewButton_1_2, BorderLayout.CENTER);
 
 	}
